@@ -1,0 +1,13 @@
+{
+  "eslint.runtime": "node",
+  "eslint.autoFixOnSave": false,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.packageManager": "pnpm",
+  // "eslint.nodePath": ".yarn/sdks",
+  "eslint.options": {
+    "rules": {
+      "no-unused-vars": 1,
+      "@typescript-eslint/no-unused-vars": [1]
+    }
+  }
+}

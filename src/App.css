@@ -1,0 +1,31 @@
+.outer {
+  width: 100%;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: row;
+  height: 400px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.left-container,
+.right-container {
+  border: 1px solid black;
+  width: 500px;
+  overscroll-behavior: none;
+  overflow: auto;
+}
+th {
+  scroll-snap-align: start;
+}
+
+.right-table {
+  text-align: left;
+}
+
+.left-table {
+  text-align: right;
+}
